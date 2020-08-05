@@ -1,0 +1,60 @@
+{
+  "id": "b8db9940-92bc-4f82-9228-1c19156864c9",
+  "parentId": "d8da9e76-3020-4027-8cd0-3d2c21531328",
+  "rootParentId": "d8da9e76-3020-4027-8cd0-3d2c21531328",
+  "name": "order.pizza - no",
+  "auto": true,
+  "contexts": [
+    "orderpizza-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderpizza.orderpizza-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "ko",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "de",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Got it! We\u0027ve placed your pizza order without a drink."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

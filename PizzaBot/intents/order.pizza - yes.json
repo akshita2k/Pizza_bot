@@ -1,0 +1,60 @@
+{
+  "id": "17203e2b-b5ad-4ace-bff5-a3d69a5fc162",
+  "parentId": "d8da9e76-3020-4027-8cd0-3d2c21531328",
+  "rootParentId": "d8da9e76-3020-4027-8cd0-3d2c21531328",
+  "name": "order.pizza - yes",
+  "auto": true,
+  "contexts": [
+    "orderpizza-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "orderpizza.orderpizza-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "ko",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "de",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Great, what would you like?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
